@@ -1,0 +1,27 @@
+const ("Желание пить пиво") = parseInt(alert("Введи значение от 1 до 10. Где 10 хочу набашится, а 0 не хочу"  ))
+
+switch ("Желание пить пиво") {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+        alert("Идем пить пиво")
+    [break;]
+    case 5: 
+    case 6: 
+    case 7: 
+        alert("Вась ты шо ахуел")
+    [break;]
+    case 8: 
+    case 9: 
+        alert("Я тебе ща ебло разобью")
+    [break;]
+    case 10: 
+        alert("Иди нахуй")
+        
+    [break;]
+
+    default:
+        "Ты чё долбоёб читать не умеешь?"
+        [break;]
+}
